@@ -1,9 +1,109 @@
 *{
     box-sizing: border-box;
 }
-ul li{
-    text-decoration: none;
-}
 header{
-    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 10px 2%;
+    
+}
+.logo{
+    cursor: pointer;
+    width: 10%;
+}
+.navbar{
+    margin-right: 200px;
+    margin-left: auto;
+    width: 500px;
+}
+.navbar li{
+    list-style-type: none;
+    display: inline;
+}
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.navbar li a:hover {
+    color : #EE7730
+}
+.nav-blue ul{
+    display: inline;
+
+}
+ul{
+    list-style-type: none;
+    max-width: 32rem;
+    padding-left: 0.2rem;
+}
+li {
+    display: inline-block;
+    padding: 0.5rem;
+    counter-increment: list;
+    width: 250px;
+}
+
+.bar-connexion b{
+    color: white;
+    margin-left: 70%;
+    font-size: 20px;
+    position: relative;
+    padding-top: 10%;
+}
+.logodev{
+    width: 30%;
+    padding-left: 55%;
+    padding-top: 5%;  
+}
+.field input{
+    width: 80%;
+    padding: 0 5px;
+    height: 40px;   
+}
+
+/* CSS Accueil */
+.nav-blue{
+   background: #eff0f6;
+   display: flex;
+   width: 94%;
+   margin-left: 50px;
+   display: inline-block;
+}
+.info{
+   display: flex;
+}
+.label{
+   color: white;
+   position: relative;
+   flex: 1;
+   font-size: 20px;
+   padding-right: 150px;
+   padding-top: 20px;
+   padding-bottom: 40px;
+   text-align: center;
+}
+.button input{
+   margin-top: 40px;
+   background: #0e5482;
+   color: white;
+   border-radius: 20px;
+   margin-left: 89%;
+   width: 8%;
+   height: 35px;
+   font-size: 23px;
+}
+.round{
+  list-style-type: none;
+  max-width: 32rem;
+  width: 30px;
+  height: 30px;
+  float: left;
+  border: 1px solid #666;
+  padding-left: 0.2rem;
+  border-radius: 100%;
+  text-align: center;
+}
+#rd1{
+    background-color: blue;
 }
