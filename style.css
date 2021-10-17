@@ -1,10 +1,31 @@
-
- header{
-     display: flex;
-     align-items: center;
-     padding: 10px 2%;
-     
- }
+#first{
+    height: 75px;
+    width: 114px;
+}
+.first ul{
+    margin-left: 693px;
+}
+.first{
+    margin: 0;
+    display: flex;
+    
+}
+.first img{
+    width: 114px;
+    margin-left: -3px;
+}
+.first a{
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+    display: inline;
+}
+.first ul li{
+    display: inline;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
  .logo{
      cursor: pointer;
      width: 10%;
@@ -58,68 +79,6 @@
     margin-left: 50px;
     display: inline-block;
 }
-<<<<<<< HEAD
-.info{
-    display: flex;
-}
-.item{
-    flex: 1;
-}
-/*========================================================= CSS SONHIBOU ================================================*/
-.question{
-    padding-top: 100px;
-}
-.question hr{
-    margin-left: 600px;
-    margin-right: 600px;
-    color: #e9cab8;
-    border-radius: 20px;
-}
-.question h1{
-    color : #6a91a7;
-    text-align: center;
-    font-size: 30px;
-}
-.question .p1{
-    text-align: center;
-    
-}
-.question .p2{
-    text-align: center;
-    
-}
-.site-orange{
-    background: #f47a37;
-    width: 94%;
-    margin-left: 50px;
-    height: 150px;
-    display: flex;
-    margin-top: 40px;
-    border-radius: 10px;
-}
-
-.label{
-    
-    color: white;
-    position: relative;
-    flex: 1;
-    font-size: 20px;
-    padding-right: 150px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    text-align: center;
-}
-.button input{
-    margin-top: 40px;
-    background: #0e5482;
-    color: white;
-    border-radius: 20px;
-    margin-left: 89%;
-    width: 8%;
-    height: 35px;
-    font-size: 23px;
-}
-=======
 header{
     display: flex;
     align-items: center;
@@ -226,4 +185,3 @@ li {
 #rd1{
     background-color: blue;
 }
->>>>>>> 8a5496bc961baa5dd586f6edbc1cb88c3809657f
