@@ -53,3 +53,77 @@ img{
 #rd1{
     background-color: blue;
 }
+/* ========================================================CSS Sonhibou ==========================================*/
+.question{
+    padding-top: 100px;
+}
+.question hr{
+    margin-left: 600px;
+    margin-right: 600px;
+    color: #e9cab8;
+    border-radius: 20px;
+}
+.question h1{
+    color : #6a91a7;
+    text-align: center;
+    font-size: 30px;
+}
+.question .p1{
+    text-align: center;
+    
+}
+.question .p2{
+    text-align: center;
+    
+}
+.site-orange{
+    background: #f47a37;
+    width: 94%;
+    margin-left: 50px;
+    height: 150px;
+    display: flex;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.label{
+    
+    color: white;
+    position: relative;
+    flex: 1;
+    font-size: 20px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.button{
+    margin-right: 100px;
+    
+}
+.button input{
+    margin-top: 40px;
+    background: #0e5482;
+    color: white;
+    border-radius: 40px 5px 5px 40px;
+    margin-left: 40%;
+    margin-right: 30%;
+    width: 8%;
+    height: 35px;
+    font-size: 18px;
+}
+.btn-cpt{
+    margin-top: -25px;
+    margin-left: 500px;
+ 
+}
+.btn-cpt input{
+    margin-top: -10px;
+    background: #0e5482;
+    color: white;
+    border-radius: 5px 7px 7px 5px;
+    margin-left: 89%;
+    width: 80px;
+    height: 35px;
+    font-size: 15px;
+}
