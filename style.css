@@ -1,32 +1,36 @@
-
- header{
-     display: flex;
-     align-items: center;
-     padding: 10px 2%;
-     
- }
- .logo{
-     cursor: pointer;
-     width: 10%;
- }
- .navbar{
-     list-style: none;
-     justify-content: flex-end;
-     margin-left: auto;
- }
- .navbar li{
-     display: inline-block;
-     padding: 0% 20px;
-     
- }
- .navbar li a {
-     text-decoration: none;
-     color: black;
-     font-size: 20px;
- }
- .navbar li a:hover {
-     color : #EE7730
- }
+header{
+    display:flex;
+    align-items: center;
+    padding: 10px 2%;
+    
+}
+.logo{
+    cursor: pointer;
+    width: 10%;
+}
+.navbar{
+    list-style: none;
+    justify-content: flex-end;
+    margin-left: auto;
+    
+    
+}
+.navbar li {
+    display: inline-block;
+    padding: 0% 20px;
+    
+    
+}
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+    
+}
+.navbar li a:hover {
+    color : #EE7730
+}
  
  .bar-connexion{
      background-color:#EE7730 ;
@@ -58,7 +62,6 @@
     margin-left: 50px;
     display: inline-block;
 }
-<<<<<<< HEAD
 .info{
     display: flex;
 }
@@ -109,78 +112,36 @@
     padding-bottom: 40px;
     text-align: center;
 }
+.button{
+    margin-right: 100px;
+    
+}
 .button input{
     margin-top: 40px;
     background: #0e5482;
     color: white;
-    border-radius: 20px;
-    margin-left: 89%;
+    border-radius: 40px 5px 5px 40px;
+    margin-left: 40%;
+    margin-right: 30%;
     width: 8%;
     height: 35px;
-    font-size: 23px;
+    font-size: 18px;
 }
-=======
-header{
-    display: flex;
-    align-items: center;
-    padding: 10px 2%;
+.btn-cpt{
+    margin-top: -25px;
+    margin-left: 500px;
     
 }
-.logo{
-    cursor: pointer;
-    width: 10%;
-}
-.navbar{
-    margin-right: 200px;
-    margin-left: auto;
-    width: 500px;
-}
-.navbar li{
-    list-style-type: none;
-    display: inline;
-}
-.navbar li a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
-.navbar li a:hover {
-    color : #EE7730
-}
-.nav-blue ul{
-    display: inline;
-
-}
-ul{
-    list-style-type: none;
-    max-width: 32rem;
-    padding-left: 0.2rem;
-}
-li {
-    display: inline-block;
-    padding: 0.5rem;
-    counter-increment: list;
-    width: 250px;
-}
-
-.bar-connexion b{
+.btn-cpt input{
+    margin-top: -10px;
+    background: #0e5482;
     color: white;
-    margin-left: 70%;
-    font-size: 20px;
-    position: relative;
-    padding-top: 10%;
+    border-radius: 5px 7px 7px 5px;
+    margin-left: 89%;
+    width: 80px;
+    height: 35px;
+    font-size: 15px;
 }
-.logodev{
-    width: 30%;
-    padding-left: 55%;
-    padding-top: 5%;  
-}
-.field input{
-    width: 80%;
-    padding: 0 5px;
-    height: 40px;   
-}
-
 /* CSS Accueil */
 .nav-blue{
    background: #eff0f6;
@@ -226,4 +187,4 @@ li {
 #rd1{
     background-color: blue;
 }
->>>>>>> 8a5496bc961baa5dd586f6edbc1cb88c3809657f
+
