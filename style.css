@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header{
     display:flex;
     align-items: center;
@@ -31,6 +32,58 @@ header{
 .navbar li a:hover {
     color : #EE7730
 }
+=======
+#first{
+    height: 75px;
+    width: 114px;
+}
+.first ul{
+    margin-left: 693px;
+}
+.first{
+    margin: 0;
+    display: flex;
+    
+}
+.first img{
+    width: 114px;
+    margin-left: -3px;
+}
+.first a{
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+    display: inline;
+}
+.first ul li{
+    display: inline;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+ .logo{
+     cursor: pointer;
+     width: 10%;
+ }
+ .navbar{
+     list-style: none;
+     justify-content: flex-end;
+     margin-left: auto;
+ }
+ .navbar li{
+     display: inline-block;
+     padding: 0% 20px;
+     
+ }
+ .navbar li a {
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+ }
+ .navbar li a:hover {
+     color : #EE7730
+ }
+>>>>>>> 7aeb9239d096a42b158c5b1f86fdcad6a5188273
  
  .bar-connexion{
      background-color:#EE7730 ;
@@ -62,6 +115,7 @@ header{
     margin-left: 50px;
     display: inline-block;
 }
+<<<<<<< HEAD
 .info{
     display: flex;
 }
@@ -130,6 +184,12 @@ header{
 .btn-cpt{
     margin-top: -25px;
     margin-left: 500px;
+=======
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px 2%;
+>>>>>>> 7aeb9239d096a42b158c5b1f86fdcad6a5188273
     
 }
 .btn-cpt input{
@@ -187,4 +247,7 @@ header{
 #rd1{
     background-color: blue;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7aeb9239d096a42b158c5b1f86fdcad6a5188273
