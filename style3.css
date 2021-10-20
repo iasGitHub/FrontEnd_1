@@ -2,6 +2,7 @@ body
 {
     margin:1.5em;
     border: white solid 0.01em;
+    font-size: large;
 }
 /* ------------------------------------------------------------header------------------------------------------------------------- */
 
@@ -176,16 +177,31 @@ button
    font-weight: bold;
 
 }
-
+button a.col
+{
+    text-decoration: none;
+    color: #EE752C;
+}
+button a.col1
+{
+    text-decoration: none;
+    color: #0c497a ;
+    
+}button a
+{
+    text-decoration: none;
+    color: #9fa0a1;
+    
+}
 button.val
 {
     border: #0c497a solid;
-    color: #EE752C;
+    
 }
 button.mod
 {
     border:   #EE752C solid;
-    color: #0c497a ;
+    
 }
 
 button.gris
@@ -194,6 +210,8 @@ button.gris
     color: #9fa0a1;
 
 }
+
+/* ------------------------------------------------------------pied de page img-------------------------------------------------------------- */
 
 footer img.foot
 {
