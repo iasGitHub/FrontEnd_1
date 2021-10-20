@@ -1,0 +1,197 @@
+body
+{
+    margin:1.5em;
+    border: white solid 0.01em;
+}
+/* ------------------------------------------------------------header------------------------------------------------------------- */
+
+header
+{
+    border-top: rgb(196, 192, 192) solid 0.01em;
+}
+header nav img
+{
+    max-width: 10em;
+    min-width: 10em;
+    
+}
+header nav ul
+{
+    display: flex;
+    float: right;
+}
+
+header nav ul li
+{
+    list-style: none;
+    margin: 1em;
+
+}
+header nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+
+}
+/* ------------------------------------------------------------section1-------------------------------------------------------------- */
+section.cont
+{
+    background-color: #EE752C;
+    height: 4em;
+    
+}
+
+h1
+{
+    color: white;
+}
+
+section.cont h1
+{
+    text-align: center;
+    margin:0em;
+    padding-top:0.6em;
+
+}
+
+section.recap p
+{
+    font-weight: bold;
+    border:#EE752C solid 0.1rem;
+    width: 25em;
+    text-align: center;
+    margin-left: 20em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.2em;
+    margin-block-start:-1em;
+    background-color:white;
+}
+
+/* ------------------------------------------------------------navigation synthese-------------------------------------------------------------- */
+
+
+section.list_recap ul.nav_recap
+{
+    list-style: none;
+    display: flex;
+}
+section.list_recap ul.nav_recap li
+{
+    padding-right: 0.3em;
+    padding-left: 0.3em;
+    margin-left: 0.5em;
+    font-weight: bold;
+}
+section.list_recap ul.nav_recap li._numb
+{
+    border: #0c497a solid ;
+    border-radius: 200%;
+    background-color:white;
+    color: #0c497a;
+    font-weight: bold;
+    
+}
+
+section.list_recap ul.nav_recap li.num1
+{
+    border: #0c497a solid ;
+    border-radius: 200%;
+    background-color:#0c497a;
+    color: white;
+    font-weight: bold;
+}
+section.list_recap ul.nav_recap li a
+{
+    text-decoration: none;
+    color: black;
+}
+section.list_recap ul.nav_recap li a#no1
+{
+    border-bottom: solid #EE752C 0.25em;
+}
+
+/* ------------------------------------------------------------Questions reponses-------------------------------------------------------------- */
+
+section.quest div.Q1R1,section.quest div.Q2R2
+{
+    display: flex;
+}
+section.quest div.Q1R1 p
+{
+    border: solid #EE752C;
+    width: 20em;
+    height: 6em;
+    text-align: center ;
+    padding-top: 0.5em;
+    font-weight: bold;
+
+}
+section.quest div.Q2R2 p
+{
+    border: solid #9fa0a1;
+
+    width: 20em;
+    height: 6em;
+    text-align: center ;
+    padding-top: 0.5em;
+    font-weight: bold;
+    color:#9fa0a1 ;
+}
+
+section.quest div.Q1R1 div.blocq , section.quest div.Q2R2 div.blocq
+{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+section.quest div.Q1R1 div.blocq h2 
+{
+    color: #0c497a;
+}
+section.quest div.Q2R2 div.blocq h2
+{
+    color: #9fa0a1;
+
+}
+div.boutons
+{
+    display: flex;
+    margin-top: 6em;
+}
+
+button
+{
+   height: 3em;
+   margin-right: 1em;
+   border-radius: 15%;
+   width: 7em;
+   background-color: white;
+   font-weight: bold;
+
+}
+
+button.val
+{
+    border: #0c497a solid;
+    color: #EE752C;
+}
+button.mod
+{
+    border:   #EE752C solid;
+    color: #0c497a ;
+}
+
+button.gris
+{
+   border: #9fa0a1 solid;
+    color: #9fa0a1;
+
+}
+
+footer img.foot
+{
+    float: right;
+}
