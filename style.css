@@ -1,5 +1,6 @@
 *{
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 header{
     margin: 0;
@@ -20,18 +21,21 @@ li{
 }
 
 a{
-    text-align: center;
+    float: right;
     color: #000000;
     text-decoration: none;
     font-size: 22px;
     font-family: 'Open Sans', sans-serif;
+    margin-right: 16px;
 }
 .nav-blue{
     background-color: aliceblue;
+    text-align: center;
     align-items: flex-start;
-    float: left;
+    float: none;
     width: 93%;
-    font-size: 18px;
+    height: 8vh;
+    font-size: 20px;
     margin-left: 70px;
 }
 
@@ -43,7 +47,6 @@ img{
 
 .round{
     margin: 0 5px;
-    padding: 0;
     display: inline-block;
     padding: 0.5rem;
     border: 2px solid blue;
