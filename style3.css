@@ -2,6 +2,7 @@ body
 {
     margin:1.5em;
     border: white solid 0.01em;
+    font-size: large;
 }
 /* ------------------------------------------------------------header------------------------------------------------------------- */
 
@@ -69,7 +70,11 @@ section.recap p
     margin-block-start:-1em;
     background-color:white;
 }
-
+section.recap
+{
+    margin-left: 15%;
+    margin-right: 15%;
+}
 /* ------------------------------------------------------------navigation synthese-------------------------------------------------------------- */
 
 
@@ -123,7 +128,7 @@ section.quest div.Q1R1 p
 {
     border: solid #EE752C;
     width: 20em;
-    height: 6em;
+    height: 8em;
     text-align: center ;
     padding-top: 0.5em;
     font-weight: bold;
@@ -134,7 +139,7 @@ section.quest div.Q2R2 p
     border: solid #9fa0a1;
 
     width: 20em;
-    height: 6em;
+    height: 8em;
     text-align: center ;
     padding-top: 0.5em;
     font-weight: bold;
@@ -172,16 +177,31 @@ button
    font-weight: bold;
 
 }
-
+button a.col
+{
+    text-decoration: none;
+    color: #EE752C;
+}
+button a.col1
+{
+    text-decoration: none;
+    color: #0c497a ;
+    
+}button a
+{
+    text-decoration: none;
+    color: #9fa0a1;
+    
+}
 button.val
 {
     border: #0c497a solid;
-    color: #EE752C;
+    
 }
 button.mod
 {
     border:   #EE752C solid;
-    color: #0c497a ;
+    
 }
 
 button.gris
@@ -191,7 +211,15 @@ button.gris
 
 }
 
+/* ------------------------------------------------------------pied de page img-------------------------------------------------------------- */
+
 footer img.foot
 {
     float: right;
+}
+section.conteneur
+{
+    margin-right: 15%;
+    margin-left: 15%;
+
 }
