@@ -1,5 +1,6 @@
 *{
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 header{
     margin: 0;
@@ -33,10 +34,12 @@ header{
 }
 .nav-blue{
     background-color: aliceblue;
+    text-align: center;
     align-items: flex-start;
-    float: left;
+    float: none;
     width: 93%;
-    font-size: 18px;
+    height: 8vh;
+    font-size: 20px;
     margin-left: 70px;
     margin-top: 70px;
 }
@@ -55,7 +58,6 @@ img{
 
 .round{
     margin: 0 5px;
-    padding: 0;
     display: inline-block;
     padding: 0.5rem;
     border: 2px solid blue;
@@ -65,6 +67,7 @@ img{
 #rd1{
     background-color: blue;
 }
+
 /* ======================================================== CSS Sonhibou ==========================================*/
 .question{
     padding-top: 300px;
@@ -137,4 +140,221 @@ img{
     width: 50px;
     height: 33px;
     font-size: 18px;
+}
+/*responsivité pour les écrans dont la dimension est inférieur ou égale à 1200px*/
+@media screen and (min-width: 1600px) {
+    .nav-blue{
+        background-color: aliceblue;
+        text-align: center;
+        align-items: flex-start;
+        float: none;
+        width: 90%;
+        height: 8vh;
+        font-size: 13px;
+    }
+    .navbar li{
+        display: inline-block;
+        padding: 5px 20px;
+    }
+    
+    .navbar li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        
+    }
+    .navbar li a:hover {
+        color : #EE7730
+    }
+    .nav-blue li {
+        display: inline-block;
+        padding: 5px 20px;
+    }
+    .site-orange{
+        background: #f47a37;
+        width: 91%;
+        height: 150px;
+        display: flex;
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+    .button{
+        margin-left: 1200px;
+    }
+    .btn-cpt{
+        margin-top: -24px;
+        margin-left: 300px;
+    }
+    .question{
+        padding-top: 110px;
+    }
+
+}
+/*responsivité pour les écrans dont la dimension est inférieur ou égale à 1200px*/
+@media screen and (min-width: 1200px) {
+    
+    .nav-blue{
+        background-color: aliceblue;
+        text-align: center;
+        align-items: flex-start;
+        float: none;
+        width: 89%;
+        height: 8vh;
+        font-size: 11px;
+    }
+
+    .navbar {
+        width: 64%;
+        float: right;
+        margin: 10px 5px;
+        font-size: 18px;
+        padding-top: 30px;
+    }
+    
+    .navbar li{
+        display: inline-block;
+        padding: 5px 20px;
+    }
+    
+    .navbar li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        
+    }
+    .navbar li a:hover {
+        color : #EE7730
+    }
+    .nav-blue li {
+        display: inline-block;
+        padding: 5px 20px;
+    }
+    .site-orange{
+        background: #f47a37;
+        width: 91%;
+        height: 200px;
+        display: flex;
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+    .button{
+        margin-left: 950px;
+    }
+    .btn-cpt{
+        margin-top: -24px;
+        margin-left: 160px;
+    }
+    .question{
+        padding-top: 80px;
+    }
+
+}
+
+/*responsivité pour les écrans ayant les dimensions 1600px 1200px*/
+@media screen and (min-width: 920px) {
+    .nav-blue{
+        background-color: aliceblue;
+        text-align: center;
+        align-items: flex-start;
+        float: none;
+        width: 90%;
+        height: 8vh;
+        font-size: 13px;
+    }
+    .navbar li{
+        display: inline-block;
+        padding: 5px 20px;
+    }
+    
+    .navbar li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        
+    }
+    .navbar li a:hover {
+        color : #EE7730
+    }
+    .nav-blue li {
+        display: inline-block;
+        padding: 5px 20px;
+    }
+    .site-orange{
+        background: #f47a37;
+        width: 91%;
+        height: 150px;
+        display: flex;
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+    .button{
+        margin-left: 1200px;
+    }
+    .btn-cpt{
+        margin-top: -24px;
+        margin-left: 300px;
+    }
+    .question{
+        padding-top: 110px;
+    }
+
+}
+/*responsivité pour les écrans dont la dimension est inférieur ou égale à 600px*/
+@media screen and (min-width: 800px) {
+    
+    .nav-blue{
+        background-color: aliceblue;
+        text-align: center;
+        align-items: flex-start;
+        float: none;
+        width: 87%;
+        height: 10vh;
+        font-size: 11px;
+    }
+
+    .navbar {
+        width: 56%;
+        float: right;
+        margin: 10px 22px;
+        font-size: 8px;
+        padding-top: 30px;
+    }
+    
+    .navbar li{
+        display: inline-block;
+        padding: 5px 20px;
+    }
+    
+    .navbar li a{
+        text-decoration: none;
+        color: black;
+        font-size: 11px;
+        
+    }
+    .navbar li a:hover {
+        color : #EE7730
+    }
+    .nav-blue li {
+        display: inline-block;
+        padding: 4px 4px;
+    }
+    .site-orange{
+        background: #f47a37;
+        width: 89%;
+        height: 250px;
+        display: flex;
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+    .button{
+        margin-left: 670px;
+    }
+    .btn-cpt{
+        margin-top: -24px;
+        margin-left: 10px;
+    }
+    .question{
+        padding-top: 80px;
+    }
+
 }

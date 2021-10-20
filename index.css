@@ -1,16 +1,21 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+@media screen and (max-width: 1920px){
 #home{
     height: 75px;
 }
 .nav_principal ul{
-    margin-left: 693px;
+    margin-left: 38%;
 }
 .nav_principal{
-    margin: 48px;
+    margin: 2%px;
     display: flex;
 }
 .nav_principal img{
     width: 114px;
-    margin-left: -3px;
+    margin-left: 2%;
 }
 .nav_principal a{
     color: black;
@@ -18,8 +23,7 @@
     padding: 8px;
 }
 .nav_principal ul li{
-    display: inline;
-    padding: 15px;
+    display: inline-block;
     font-size: 22px;
     font-weight: bold;
 
@@ -106,4 +110,78 @@
 }
 #img1{
    background-image: #4B92DF;
+}
+}
+
+@media screen and (max-width: 1475px)
+{
+    #bprinci
+    {
+        width: auto;
+    }
+}
+@media screen and (max-width: 1475px)
+{
+   nav
+    {
+        width: 100%;
+    }
+    
+    nav 
+    {
+        flex-direction: column;
+    }
+
+    nav li
+    {
+        width: 100%;
+        border-right: none;
+        border-left: none;
+        margin-right: 0px;
+        margin-left: 0px;
+    } 
+    
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    .nav_principal img {
+        margin-left: 10%;
+        height: 30px;
+        width: 60px;
+    }
+    .orange{
+        flex-direction: column;
+    }
+    .orange h1{
+        text-align: center;
+        margin: 126px 296px;
+    }
+    .bleu{
+        flex-direction: column;
+    }
+    .bleu img{
+        height: 70px;
+        width: 70px;
+        position: relative;
+        top: -12%;
+        left: 287px;
+    }
+    .icones{
+        display: inline-flex;
+        margin: 12px;
+        position: absolute;
+        left: -99px;
+        top: 476px;
+    }
+    .icones img{
+        display: flex;
+        width: 34px;
+        height: 42px;
+        margin: 3px;  
+    }
+    .connex h3{
+        padding: 21px;
+        margin: 41px 37px 77px 12px;
+    }
 }
