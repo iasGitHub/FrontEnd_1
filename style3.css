@@ -69,7 +69,11 @@ section.recap p
     margin-block-start:-1em;
     background-color:white;
 }
-
+section.recap
+{
+    margin-left: 15%;
+    margin-right: 15%;
+}
 /* ------------------------------------------------------------navigation synthese-------------------------------------------------------------- */
 
 
@@ -123,7 +127,7 @@ section.quest div.Q1R1 p
 {
     border: solid #EE752C;
     width: 20em;
-    height: 6em;
+    height: 8em;
     text-align: center ;
     padding-top: 0.5em;
     font-weight: bold;
@@ -134,7 +138,7 @@ section.quest div.Q2R2 p
     border: solid #9fa0a1;
 
     width: 20em;
-    height: 6em;
+    height: 8em;
     text-align: center ;
     padding-top: 0.5em;
     font-weight: bold;
@@ -194,4 +198,10 @@ button.gris
 footer img.foot
 {
     float: right;
+}
+section.conteneur
+{
+    margin-right: 15%;
+    margin-left: 15%;
+
 }
