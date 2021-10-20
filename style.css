@@ -6,27 +6,31 @@ header{
     margin: 0;
     width: 100%;
     height: 70px;
+    margin-top: -14px;
     background-color: white;
+}
+.logo{
+    cursor: pointer;
+    width: 7%;
+    margin-top: 20px;
 }
 .navbar {
     width: 54%;
     float: right;
     margin: 10px 2px;
-    font-size: 30px;
-    padding-top: 70px;
+    font-size: 22px;
+    padding-top: 40px;
 }
-li{
+.navbar li{
     display: inline-block;
     padding: 5px 20px;
 }
 
-a{
-    float: right;
-    color: #000000;
+.navbar li a{
     text-decoration: none;
-    font-size: 22px;
-    font-family: 'Open Sans', sans-serif;
-    margin-right: 16px;
+    color: black;
+    font-size: 20px;
+    
 }
 .nav-blue{
     background-color: aliceblue;
@@ -37,8 +41,15 @@ a{
     height: 8vh;
     font-size: 20px;
     margin-left: 70px;
+    margin-top: 70px;
 }
-
+.navbar li a:hover {
+    color : #EE7730
+}
+.nav-blue li {
+    display: inline-block;
+    padding: 5px 20px;
+}
 img{
     margin-bottom: 50px;
     width: 10%;
@@ -58,14 +69,15 @@ img{
 }
 /* ======================================================== CSS Sonhibou ==========================================*/
 .question{
-    padding-top: 100px;
+    padding-top: 300px;
 }
 .question hr{
     margin-left: 600px;
     margin-right: 600px;
-    color: #e9cab8;
+    color: #f47a37;
     border-radius: 20px;
 }
+
 .question h1{
     color : #6a91a7;
     text-align: center;
