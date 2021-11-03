@@ -19,7 +19,7 @@
             
         </header>
     
-       <div>
+        <div>
             <nav class="nav-blue">
                 <ul>
                     <li><div class="round" id="rd1">1</div>&emsp;Personnalité</li>
@@ -32,42 +32,48 @@
             </nav>
         </div>
     
-    <div class="question">
-        <hr>
-        <h1>Question 1</h1>
-        <p class = "p1"><b>Revenez sur l'année dernière, avez-vous commencé et terminer un de vos différents projets ?</b></p>
-        <p class="p2"><b>Un projet peut être par exemple, construire, réparer ou fabriquer quelque chose, écrire un libre, aller en formation continue</b></p>
+        <div class="question" id="Question">
+         <hr>
+            <h1 id="quest">Question <span id="titre">1</span> </h1>
+              <b> <p class = "p1" id="para">
+              Quelle a été votre température la plus élevée ces dernières 48 heures ?
+         </p> </b>
         
-    </div>
-    <form action="">
-    <div class="site-orange">
-        <label class="label">
-            <input type="radio" id="radio 1" name="radio 1"><br>
-            Commencé et terminé <br> un certain nombre <br> projets
-            <span class="checkmark"></span>
-        </label>
-        <label class="label">
-            <input type="radio" id="p2" name="radio 2"><br>
-            Commencé beaucoup <br> de chose mais en ai <br> terminé très peu
-            <span class="checkmark"></span>
-        </label>
-        <label class="label">
-            <input type="radio" id="p3" name="radio 3"><br>
-            N'ai pas fait grand-chose <br> pour moi mais beaucoup <br> pour les autres 
-            <span class="checkmark"></span>
-        </label>
-        <label class="label">
-            <input type="radio" id="p4" name="radio 4"><br>
-            été beaucoup trop occupé <br> pour m'occuper de <br> mes propres affaire
-            <span class="checkmark"></span>
-        </label>
-    </div>
-    <div class="button"> 
-        <input type="submit" value="Suivant">
-     </div>
-     <div class="btn-cpt">
-        <input type="submit" value="1/26">
-     </div>
-</form>
+        </div>
+        <div>
+        <!-- <form action=""> -->
+         <div class="site-orange" id="orang">
+                <div class="radio">
+                <div id="d1">
+                        <input type="radio" name="rad" id="radio1"><br>
+                        <label for="r1" class="rad" id="rd">Votre teùpérature est inférieur ou égale à 35,4°C"</label>
+                </div>
+                </div>
+                <div class="radio">
+                   <div id="d2">
+                      <input type="radio" name="rad" id="radio2"><br>
+                      <label for="r2" class="rad">Votre teùpérature est entre 35,5 ou 38,9°C</label>
+                </div>
+                </div>
+                <div class="radio">
+                    <input type="radio" name="rad" id="radio3"><br>
+                    <label for="r3" class="rad">Votre teùpérature est supérieire ou égale à 39°C </label>
+                </div>
+                <div class="radio">
+                    <input type="radio" name="rad" id="radio4"><br>
+                    <label for="r4" class="rad">Je ne sais pas ma température</label>
+                </div>
+            </div>
+
+                <div class="butt">
+                  <div class="button1">
+                    <button id="but1"  >Suivant</button>
+                </div>
+                <div class="button2">
+                    <button><span id="cpt">1</span>/13</button>
+                </div>
+              </div>
+           </div>
+           <script language="JavaScript" src="app.js" type="text/javascript"></script>
     </body>
 </html>

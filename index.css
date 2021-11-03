@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    margin-left: 2%;
 }
 @media screen and (max-width: 1920px){
 #home{
@@ -10,7 +11,7 @@ body{
     margin-left: 38%;
 }
 .nav_principal{
-    margin: 2%px;
+    margin: 2px;
     display: flex;
 }
 .nav_principal img{
@@ -93,7 +94,7 @@ body{
     margin: 12px;
     position: absolute;
     left: -312px;
-    top: 323px;
+    top: 333px;
 }
 .icones img{
     display: flex;

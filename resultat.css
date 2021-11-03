@@ -96,72 +96,17 @@ img{
     margin-top: 40px;
     border-radius: 10px;
 }
-.radio{
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 1%;
-}
-/* .label{
-    
-    color: white;
-    position: relative;
-    flex: 1;
-    font-size: 20px;
-    padding-right: 150px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    text-align: center;
-} */
-/* .button{
-    margin-left: 1569px;
-}
-.button input{
-    margin-top: 40px;
-    background: #0e5482;
-    color: white;
-    border-radius: 7px 0px 0px 7px;
-    margin-left: 57%;
-    width: 25%;
-    height: 33px;
-    font-size: 18px;
-}
-.btn-cpt{
-    margin-top: -25px;
-    margin-left: 850px;
- 
-}
-.btn-cpt input{
-    margin-top: -10px;
-    background: #0e5482;
-    color: white;
-    border-radius: 0px 7px 7px 0px;
-    margin-left: 89%;
-    width: 50px;
-    height: 33px;
-    font-size: 18px;
-} */
-/*responsivité pour les écrans dont la dimension est inférieur ou égale à 1200px*/
 .butt{
-    display: flex;
-    position: relative;
-    margin: 0px 1525px;
-    top: 16px;
+    text-align: center;
+    margin-top: 12px;
 }
 .button1 button{
     background-color: #0e5482;
     color: white;
-    width: 83px;
-    height: 42px;
+    width: 150px;
+    height: 52px;
     margin: 0px 3px;
-    border-radius: 12px 0px 0px 12px;
-}
-.button2 button{
-    background-color: #0e5482;
-    color: white;
-    width: 83px;
-    height: 42px;
-    border-radius: 0px 12px 12px 0px;
+    border-radius: 12px 12px 12px 12px;
 }
 
 @media screen and (min-width: 1600px) {
@@ -199,13 +144,6 @@ img{
         display: flex;
         margin-top: 40px;
         border-radius: 10px;
-    }
-    .button{
-        margin-left: 1200px;
-    }
-    .btn-cpt{
-        margin-top: -24px;
-        margin-left: 300px;
     }
     .question{
         padding-top: 110px;
@@ -259,13 +197,6 @@ img{
         margin-top: 40px;
         border-radius: 10px;
     }
-    .button{
-        margin-left: 950px;
-    }
-    .btn-cpt{
-        margin-top: -24px;
-        margin-left: 160px;
-    }
     .question{
         padding-top: 80px;
     }
@@ -308,13 +239,6 @@ img{
         display: flex;
         margin-top: 40px;
         border-radius: 10px;
-    }
-    .button{
-        margin-left: 1200px;
-    }
-    .btn-cpt{
-        margin-top: -24px;
-        margin-left: 300px;
     }
     .question{
         padding-top: 110px;
@@ -367,13 +291,6 @@ img{
         display: flex;
         margin-top: 40px;
         border-radius: 10px;
-    }
-    .button{
-        margin-left: 670px;
-    }
-    .btn-cpt{
-        margin-top: -24px;
-        margin-left: 10px;
     }
     .question{
         padding-top: 80px;

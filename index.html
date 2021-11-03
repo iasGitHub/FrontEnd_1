@@ -6,6 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>Projet Html</title>
+    <SCRIPT LANGUAGE="JavaScript">
+        function Login(){
+            var done=0;
+            var username = document.login.username.value;
+            var password = document.login.password.value;
+            var consigne = document.querySelector('.consigne');
+        
+         if (username=="thiernoomardiouf@gmail.com" && password=="123") {
+             window.location="accueil.html";
+            } 
+           else{
+                consigne.textContent = 'Mot de passe ou login incorrecte';
+                consigne.style.textAlign = 'center';
+                consigne.style.backgroundColor = 'red';
+
+            }
+        
+        // if (username=="user2" && password=="user2") {
+        // window.location="accueil.html";
+        // }
+        
+        // if (username=="user3" && password=="user3") {
+        // window.location="accueil.html";
+        // }
+        
+        // if (username=="user4" && password=="user4") {
+        // window.location="accueil.html";
+        // }
+        
+        // if (username=="vous" && password=="vous") { 
+    
+        // window.location="accueil.html";
+        // }
+        }
+        </SCRIPT>
 </head>
 <body>
 <div class="princ" id="princi">
@@ -29,16 +64,18 @@
              <div class="blanc">
                 <h2>Bienvenue</h2>
                 <h3>Contactez-vous</h3>
-                <form action="">
+
+                <form name="login">
                     <label for="email">Email</label><br><br>
-                    <input type="text" placeholder="Saisir votre adresse email" id="email"><br><br>
+                    <input type="text" placeholder="Saisir votre adresse email" id="email" name="username"><br><br>
                     <label for="password">Password</label><br><br>
-                    <input type="password" placeholder="Saisir votre mot de passe" id="password"><br><br>
-                    <input type="checkbox">
+                    <input type="password" placeholder="Saisir votre mot de passe" id="password" name="password"><br><br>
+                    <input type="checkbox" id="souvenir">
                     <label for="moi">Se souvenir de moi</label><br><br>
                     <label for="oublier" id="oublier">Mot de passe oublié</label><br><br>
-                    <input type="submit" value="Connexion" id="connexion"><br><br>
+                    <input type=button value="Connextion!" onClick="Login()" id="connexion"><br><br>
                 </form>
+
                 <h2>Se connecter avec</h2>
                 <div class="icones">
                     <div><img src="Image/facebook.png" alt="" id="img1"></div>
@@ -48,10 +85,13 @@
                 <div class="connex">
                     <h3><span>Vous n'avez pas de compte ?</span>Inscrivez-vous maintenant</h3>
                 </div>
+                
+                <div class="resultat">
+                    <p class="consigne"></p>
+                </div>
            </div>
            <img src="Image/undraw_Developer_activity_re_39tg (1).svg" alt="">
         </div>
-
     </div>
 </div>
 </body>
